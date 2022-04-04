@@ -1,4 +1,4 @@
-package Section2;
+package Section2.ChatBot;
 
 import java.util.Scanner;
 
