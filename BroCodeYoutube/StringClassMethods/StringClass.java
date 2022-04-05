@@ -3,7 +3,7 @@ package BroCodeYoutube.StringClassMethods;
 public class StringClass {
     // STRING = A REFERENCE DATA TYPE THAT CAN STORE ONE OR MORE CHARACTERS
     public static void main(String[] args) {
-        String name = "Karl";
+        String name = " Karl ";
 
         boolean resultEquals = name.equals("Wasd");
         int resultLength = name.length();
@@ -13,13 +13,16 @@ public class StringClass {
         String resultUpper = name.toUpperCase();
         String resultLower = name.toLowerCase();
         String resultTrim = name.trim();
-        System.out.println("result of trim " + resultEquals);
-        System.out.println("result of trim " + resultLength);
-        System.out.println("result of trim " + resultChar);
-        System.out.println("result of trim " + resultIndex);
-        System.out.println("result of trim " + resultEmpty);
-        System.out.println("result of trim " + resultUpper);
-        System.out.println("result of trim " + resultLower);
-        System.out.println("result of trim " + resultTrim);
+        String resultReplace = name.replace("a", "A");
+        System.out.println("result of resultEquals " + resultEquals);
+        System.out.println("result of resultLength " + resultLength);
+        System.out.println("result of resultChar " + resultChar);
+        System.out.println("result of resultIndex " + resultIndex);
+        System.out.println("result of resultEmpty " + resultEmpty);
+        System.out.println("result of resultUpper " + resultUpper);
+        System.out.println("result of resultLower " + resultLower);
+        System.out.println("result of resultTrim " + resultTrim);
+        System.out.println("result of resultReplace " + resultReplace);
+
     }
 }
