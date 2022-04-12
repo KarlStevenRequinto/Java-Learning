@@ -1,0 +1,9 @@
+package BroCodeYoutube.Objects.Polymorphism;
+
+public class Vehicle {
+
+	public void go() {
+		
+	}
+
+}
